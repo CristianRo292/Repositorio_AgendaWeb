@@ -144,3 +144,6 @@ footer {
   text-align: center;
   padding: 10px;
 }
+@media (max-width: 600px) {
+  .rejilla { grid-template-columns: 1fr; }  /* una sola columna */
+}
