@@ -112,6 +112,32 @@ th, td {
   border-radius: 5px;
 }
 
+.entradas-datos-comun{
+  width: 160px;
+  height: 20px;
+  border-radius: 3px;
+  border-color: rgba(26, 133, 64, 0.521);
+}
+.rejilla-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* tres columnas iguales */
+  width: 90%;                     /* ocupa el 90% del ancho */
+  max-width: 90%;
+  margin: 0 auto;                 /* centrada en la pantalla */
+  gap: 12px;                      /* espacio entre columnas */
+  overflow-y: auto;               /* barra de desplazameinto en eje y */
+  max-height: 100vh;
+}
+button {
+  border-radius: 4px;
+  border-color: aquamarine;
+  background-color: rgb(45, 131, 41);
+  color: white;
+  height: 30px;
+  width: 60px;
+
+}
+
 footer {
   background-color: rgb(136, 168, 122);
   color: white;
